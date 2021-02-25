@@ -32,7 +32,9 @@ Webdrivers are already located in the proejct itself. And in the code its referi
 Only thing you need to make sure of is that, browser versions should be compatible with driver versions:
 
 For Google Chrome: ChromeDriver 88.0.4324.96 is used (That means your Chrome build should be a subversion of version 88)
+
 For Mozilla Firefox: GeckoDriver 84.0.2 is used 
+
 For Edge: EdgeDriver 88.0.705.74  is used 
 
 
@@ -58,11 +60,17 @@ I have used cucumber-reporting. After each execution there will created a file c
 This file is created for the control of some high level parameters:
 
 defaultBrowser=chrome
+
 browser_Chrome=chrome
+
 browser_Firefox=firefox
+
 browser_Edge=edge
+
 defaultLanguage=EN
+
 language_english=EN
+
 language_german=DE
 
 You can change defaultBrowser to ```firefox``` or ```edge``` to run them in their respected browsers.
