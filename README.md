@@ -85,7 +85,7 @@ You can change defaultLanguage to ```DE``` to run the cases in German language. 
 I have designed 4 individual test scenarios/scenario outlines:
 
 As I couldn't have a real UBS Account (even though I applied for it- and it says you will be contacted for the creation of the account, and I have not contacted yet), I designed
-cases with any login, but I had tried to add many things of functional perspective of the website.
+cases without any login, but I had tried to add many things from functional perspective of the website.
 
 3 of them is scenario outline:
 1) Account Transfer Demo.feature: This scenario outline uses the demo ebanking and make a transaction betwween two arbitarily selected users, the amount of money and note that will be sent is parametrized in cucumber file.
