@@ -29,10 +29,4 @@ public class RegisterPageSteps extends Base {
         Assert.assertEquals(driver.getCurrentUrl(),"https://www.ubs.com/global/en/investment-bank/ubs-neo/register/confirmation.html");
     }
 
-
-    @Then("user clicks to Equities")
-    public void userClicksToEquities() {
-    }
-
-
 }
