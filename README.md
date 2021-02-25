@@ -74,7 +74,7 @@ language_english=EN
 language_german=DE
 
 You can change defaultBrowser to ```firefox``` or ```edge``` to run them in their respected browsers.
-You can change defaultLanguage to ```DE``` to run the cases in German language. (Main Page only allows 2 languages, so on the high level, I defined only 2 langauges, but for ```Checking UBS Social Media Links``` scenario outline, I have added other langugae selection within the Examples section of the scenario outline.
+You can change defaultLanguage to ```DE``` to run the cases in German language. (Main Page only allows 2 languages, so on the high level, I defined only 2 languages, but for ```Checking UBS Social Media Links``` scenario outline, I have added other language selection within the Examples section of the scenario outline.
 
 
 
