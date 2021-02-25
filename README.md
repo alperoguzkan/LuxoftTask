@@ -46,6 +46,8 @@ There are 2 ways of running test scenarios.
 - Go to ```src\java\main\resources\Features\Account Transfer Demo.feature``` 
 feature file and right click, then click  ```Run 'Feature:Account Transfer Demo'```
 
+For the remainder 3 feature files, you can do the same.
+
 2)This one is for to run all test scenarios and outlines combined.
 - Go to ```src\java\main\resources\Runners\Runner``` 
 feature file and right click, then click  ```Run 'Runner'```
