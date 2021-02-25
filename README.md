@@ -1,90 +1,62 @@
 # LuxoftTask
-Cucumber Java UI Automation Task
 
-# Project Title
-
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This project is a sample Cucumber Java UI Automation Implementaion for https://www.ubs.com/global/en.html. It has 4 scenarios/scenario outlines (3 of them is a scenario outline) both from UI and one with API Level perspective. The details of scenarios will be explained in Further Notes section
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+1. JDK 15 (make sure Java class path is set)
+2. IntelliJ 
+3. IntelliJ Plugin for
+    - Cucumber for Java
+    - Gherkin
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+1. JDK 15: https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html
+2. IntelliJ Community Edition:https://www.jetbrains.com/idea/download/#section=windows
+3. Open IntelliJ and Go: File/Settings/Plugins and write Cucumber for Java and click install.
+   Repeat the same for Gherkin.
 
-Say what the step will be
 
+## Cloning the repository
+
+
+```bash
+git clone https://github.com/alperoguzkan/LuxoftTask.git
 ```
-Give the example
-```
 
-And repeat
 
-```
-until finished
-```
+## WebDrivers
 
-End with an example of getting some data out of the system or using it for a little demo
+Webdrivers are already located in the proejct itself. And in the code its refering relevant user's directory. So you don't need to change the directory. 
+Only thing you need to make sure of is that, browser versions should be compatible with driver versions:
+
+For Google Chrome: ChromeDriver 88.0.4324.96 is used (That means your Chrome build should be a subversion of version 88)
+For Mozilla Firefox: GeckoDriver 84.0.2 is used 
+For Edge: EdgeDriver 88.0.705.74  is used 
+
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+There are 2 ways of running test scenarios. 
 
-### Break down into end to end tests
+1)This one is individual running of test scenarios/scenario outlines:
+- Go to ```src\java\main\resources\Features\Account Transfer Demo.feature``` 
+feature file and right click, then click  ```Run 'Feature:Account Transfer Demo'```
 
-Explain what these tests test and why
+2)This one is for to run all test scenarios and outlines combined.
+- Go to ```src\java\main\resources\Runners\Runner``` 
+feature file and right click, then click  ```Run 'Runner'```
 
-```
-Give an example
-```
 
-### And coding style tests
+## Test Report
 
-Explain what these tests test and why
+I have used cucumber-reporting. After each execution there will created a file called ```cucumber-reports.html'``` under  ```target``` file.
 
-```
-Give an example
-```
 
-## Deployment
+## Further Notes:
 
-Add additional notes about how to deploy this on a live system
+I have designed 4 individual test scenarios/scenario outlines:
 
-## Built With
+3 of them is 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
